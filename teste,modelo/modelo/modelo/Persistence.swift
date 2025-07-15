@@ -1,8 +1,8 @@
 //
 //  Persistence.swift
-//  Pack_Recipe
+//  modelo
 //
-//  Created by Ana Carolina Evangelista on 14/07/25.
+//  Created by Ana Carolina Evangelista on 15/07/25.
 //
 
 import CoreData
@@ -32,7 +32,7 @@ struct PersistenceController {
     let container: NSPersistentContainer
 
     init(inMemory: Bool = false) {
-        container = NSPersistentContainer(name: "Pack_Recipe")
+        container = NSPersistentContainer(name: "modelo")
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
         }
