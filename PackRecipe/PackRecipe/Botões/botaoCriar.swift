@@ -9,7 +9,15 @@ import SwiftUI
 
 struct botaoCriar: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        ZStack{
+            Capsule()
+                .frame(width: 70, height: 35)
+                .foregroundStyle(.marçala)
+            Text("Criar")
+                .bold()
+                .foregroundStyle(.backGround)
+        }
     }
 }
 

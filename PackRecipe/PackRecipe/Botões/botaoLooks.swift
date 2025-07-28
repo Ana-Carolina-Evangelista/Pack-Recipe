@@ -9,10 +9,17 @@ import SwiftUI
 
 struct botaoLooks: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        ZStack{
+            Capsule()
+                .frame(width: 70, height: 35)
+                .foregroundStyle(.marçala)
+            Text("Looks")
+                .bold()
+                .foregroundStyle(.backGround)
+        }
     }
 }
-
 #Preview {
     botaoLooks()
 }

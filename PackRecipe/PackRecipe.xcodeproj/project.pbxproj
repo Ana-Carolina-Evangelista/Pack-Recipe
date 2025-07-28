@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		AD2403A82E2EAE0B0035839B /* PackRecipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PackRecipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD2403C42E2EAE7C0035839B /* PackRecipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PackRecipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		AD2403AA2E2EAE0B0035839B /* PackRecipe */ = {
+		AD2403C62E2EAE7C0035839B /* PackRecipe */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = PackRecipe;
 			sourceTree = "<group>";
@@ -19,7 +19,7 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AD2403A52E2EAE0B0035839B /* Frameworks */ = {
+		AD2403C12E2EAE7C0035839B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AD24039F2E2EAE0B0035839B = {
+		AD2403BB2E2EAE7C0035839B = {
 			isa = PBXGroup;
 			children = (
-				AD2403AA2E2EAE0B0035839B /* PackRecipe */,
-				AD2403A92E2EAE0B0035839B /* Products */,
+				AD2403C62E2EAE7C0035839B /* PackRecipe */,
+				AD2403C52E2EAE7C0035839B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AD2403A92E2EAE0B0035839B /* Products */ = {
+		AD2403C52E2EAE7C0035839B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AD2403A82E2EAE0B0035839B /* PackRecipe.app */,
+				AD2403C42E2EAE7C0035839B /* PackRecipe.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AD2403A72E2EAE0B0035839B /* PackRecipe */ = {
+		AD2403C32E2EAE7C0035839B /* PackRecipe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AD2403B82E2EAE0B0035839B /* Build configuration list for PBXNativeTarget "PackRecipe" */;
+			buildConfigurationList = AD2403CF2E2EAE7D0035839B /* Build configuration list for PBXNativeTarget "PackRecipe" */;
 			buildPhases = (
-				AD2403A42E2EAE0B0035839B /* Sources */,
-				AD2403A52E2EAE0B0035839B /* Frameworks */,
-				AD2403A62E2EAE0B0035839B /* Resources */,
+				AD2403C02E2EAE7C0035839B /* Sources */,
+				AD2403C12E2EAE7C0035839B /* Frameworks */,
+				AD2403C22E2EAE7C0035839B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				AD2403AA2E2EAE0B0035839B /* PackRecipe */,
+				AD2403C62E2EAE7C0035839B /* PackRecipe */,
 			);
 			name = PackRecipe;
 			packageProductDependencies = (
 			);
 			productName = PackRecipe;
-			productReference = AD2403A82E2EAE0B0035839B /* PackRecipe.app */;
+			productReference = AD2403C42E2EAE7C0035839B /* PackRecipe.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AD2403A02E2EAE0B0035839B /* Project object */ = {
+		AD2403BC2E2EAE7C0035839B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1640;
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
-					AD2403A72E2EAE0B0035839B = {
+					AD2403C32E2EAE7C0035839B = {
 						CreatedOnToolsVersion = 16.4;
 					};
 				};
 			};
-			buildConfigurationList = AD2403A32E2EAE0B0035839B /* Build configuration list for PBXProject "PackRecipe" */;
+			buildConfigurationList = AD2403BF2E2EAE7C0035839B /* Build configuration list for PBXProject "PackRecipe" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = AD24039F2E2EAE0B0035839B;
+			mainGroup = AD2403BB2E2EAE7C0035839B;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = AD2403A92E2EAE0B0035839B /* Products */;
+			productRefGroup = AD2403C52E2EAE7C0035839B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AD2403A72E2EAE0B0035839B /* PackRecipe */,
+				AD2403C32E2EAE7C0035839B /* PackRecipe */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AD2403A62E2EAE0B0035839B /* Resources */ = {
+		AD2403C22E2EAE7C0035839B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AD2403A42E2EAE0B0035839B /* Sources */ = {
+		AD2403C02E2EAE7C0035839B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		AD2403B62E2EAE0B0035839B /* Debug */ = {
+		AD2403CD2E2EAE7D0035839B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -189,7 +189,7 @@
 			};
 			name = Debug;
 		};
-		AD2403B72E2EAE0B0035839B /* Release */ = {
+		AD2403CE2E2EAE7D0035839B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -246,7 +246,7 @@
 			};
 			name = Release;
 		};
-		AD2403B92E2EAE0B0035839B /* Debug */ = {
+		AD2403D02E2EAE7D0035839B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -256,11 +256,14 @@
 				DEVELOPMENT_TEAM = AD22JQSX6V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pack Recipe";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -268,13 +271,17 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AnaCarolina.PackRecipe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		AD2403BA2E2EAE0B0035839B /* Release */ = {
+		AD2403D12E2EAE7D0035839B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -284,11 +291,14 @@
 				DEVELOPMENT_TEAM = AD22JQSX6V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pack Recipe";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,34 +306,38 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AnaCarolina.PackRecipe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AD2403A32E2EAE0B0035839B /* Build configuration list for PBXProject "PackRecipe" */ = {
+		AD2403BF2E2EAE7C0035839B /* Build configuration list for PBXProject "PackRecipe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AD2403B62E2EAE0B0035839B /* Debug */,
-				AD2403B72E2EAE0B0035839B /* Release */,
+				AD2403CD2E2EAE7D0035839B /* Debug */,
+				AD2403CE2E2EAE7D0035839B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AD2403B82E2EAE0B0035839B /* Build configuration list for PBXNativeTarget "PackRecipe" */ = {
+		AD2403CF2E2EAE7D0035839B /* Build configuration list for PBXNativeTarget "PackRecipe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AD2403B92E2EAE0B0035839B /* Debug */,
-				AD2403BA2E2EAE0B0035839B /* Release */,
+				AD2403D02E2EAE7D0035839B /* Debug */,
+				AD2403D12E2EAE7D0035839B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AD2403A02E2EAE0B0035839B /* Project object */;
+	rootObject = AD2403BC2E2EAE7C0035839B /* Project object */;
 }

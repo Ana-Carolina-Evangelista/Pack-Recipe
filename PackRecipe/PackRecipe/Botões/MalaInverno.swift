@@ -8,11 +8,28 @@
 import SwiftUI
 
 struct MalaInverno: View {
+    let selecionado: Bool
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+  
+        ZStack{
+            RoundedRectangle(cornerRadius: 20)
+                .frame(width: 170, height: 170)
+                .foregroundStyle(.bege)
+            
+            Image(systemName: selecionado ? "snowflake.circle.fill" : "snowflake.circle" )
+//            Image(systemName: selecionado ? "sun.max.fill" : "sun.max")
+                .resizable()
+                .foregroundStyle(.marçala)
+                .frame(width: 100, height: 100)
+        }
     }
 }
 
 #Preview {
-    MalaInverno()
+    MalaInverno(selecionado: false)
 }
+//NavigationLink {
+//    MalaViewFrio()
+//} label : {
+//    MalaInverno()
+//}

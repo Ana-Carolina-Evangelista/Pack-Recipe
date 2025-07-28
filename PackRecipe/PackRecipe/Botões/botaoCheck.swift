@@ -9,7 +9,17 @@ import SwiftUI
 
 struct botaoCheck: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        ZStack{
+            RoundedRectangle(cornerRadius: 20)
+                .frame(width: 350, height: 55)
+                .foregroundStyle(.bege)
+            RoundedRectangle(cornerRadius: 20)
+                .frame(width: 40, height: 40)
+                .foregroundStyle(.white)
+                .padding(.trailing, 280)
+            
+        }
     }
 }
 

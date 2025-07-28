@@ -1,2 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23788.4" systemVersion="24F74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier=""/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23788.4" systemVersion="24F74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Higiene" representedClassName="Higiene" syncable="YES" codeGenerationType="class">
+        <attribute name="itemHigiene" optional="YES" attributeType="String"/>
+        <relationship name="mala" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Mala" inverseName="higiene" inverseEntity="Mala"/>
+    </entity>
+    <entity name="Mala" representedClassName="Mala" syncable="YES" codeGenerationType="class">
+        <attribute name="temperatura" optional="YES" attributeType="String"/>
+        <attribute name="titulo" optional="YES" attributeType="String"/>
+        <relationship name="higiene" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Higiene" inverseName="mala" inverseEntity="Higiene"/>
+        <relationship name="roupas" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Roupas" inverseName="mala" inverseEntity="Roupas"/>
+        <relationship name="sapatos" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Sapatos" inverseName="mala" inverseEntity="Sapatos"/>
+    </entity>
+    <entity name="Roupas" representedClassName="Roupas" syncable="YES" codeGenerationType="class">
+        <attribute name="itemRoupa" optional="YES" attributeType="String"/>
+        <relationship name="mala" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Mala" inverseName="roupas" inverseEntity="Mala"/>
+    </entity>
+    <entity name="Sapatos" representedClassName="Sapatos" syncable="YES" codeGenerationType="class">
+        <attribute name="itemSapato" optional="YES" attributeType="String"/>
+        <relationship name="mala" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Mala" inverseName="sapatos" inverseEntity="Mala"/>
+    </entity>
+</model>

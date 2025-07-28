@@ -26,7 +26,7 @@ class CoreDataModel {
         })
     }
     
-    public func saveContext(){
+    public func saveContext() {
         if viewContext.hasChanges {
             do {
                 try viewContext.save()
@@ -49,28 +49,31 @@ class CoreDataModel {
             return []
         }
     }
-    public func createMala(itens: String, titulo: String) ->
+    public func createMala(itens: String = "", titulo: String = "", temperatura: String) ->
+//    [Higiene], [Sapatos], [Roupas]
     Mala {
         let Mala: Mala =
         Mala(context: viewContext)
         Mala.titulo = titulo
+        Mala.temperatura = temperatura
+        
         saveContext()
         
         return Mala
     }
     public func deleteMala(Mala:
-                                Mala) {
+                           Mala) {
         viewContext.delete(Mala)
         saveContext()
     }
     //entidade Mala
     
-
-//ItemIgiene
-public func fetchHigiene() -> [Higiene] {
+    
+    //Item higiene
+    public func fetchHigiene() -> [Higiene] {
         let fetchRequest: NSFetchRequest<Higiene> =
         Higiene.fetchRequest()
-
+        
         do {
             let result = try viewContext.fetch(fetchRequest)
             return result
@@ -84,16 +87,74 @@ public func fetchHigiene() -> [Higiene] {
     Higiene {
         let Higiene: Higiene =
         Higiene(context: viewContext)
-        Higiene.ItemHigiene = itemHigiene
+        Higiene.itemHigiene = itemHigiene
         saveContext()
         
         return Higiene
     }
-    public func deleteHigiene(Higiene:
-                                Higiene) {
-        viewContext.delete(Higiene)
+    public func deleteHigiene(higiene: Higiene) {
+        viewContext.delete(higiene)
         saveContext()
     }
     //entidade Higiene
+    
+    //item roupa
+    public func fetchRoupas() -> [Roupas] {
+        let fetchRequest: NSFetchRequest<Roupas> =
+        Roupas.fetchRequest()
+        
+        do {
+            let result = try viewContext.fetch(fetchRequest)
+            return result
+        }
+        catch {
+            print("[WARNING]: Failed to fetch Roupas (\(error.localizedDescription))")
+            return []
+        }
     }
+    public func createRoupas(itemRoupas: String) ->
+    Roupas {
+        let Roupas: Roupas =
+        Roupas(context: viewContext)
+        Roupas.itemRoupa = itemRoupas
+        saveContext()
+        
+        return Roupas
+    }
+    public func deleteRoupas(roupas: Roupas) {
+        viewContext.delete(roupas)
+        saveContext()
+    }
+    //entidade Roupas
+    
+    //item sapatos
+    public func fetchSapatos() -> [Sapatos] {
+        let fetchRequest: NSFetchRequest<Sapatos> =
+        Sapatos.fetchRequest()
+        
+        do {
+            let result = try viewContext.fetch(fetchRequest)
+            return result
+        }
+        catch {
+            print("[WARNING]: Failed to fetch Sapatos (\(error.localizedDescription))")
+            return []
+        }
+    }
+    public func createSapatos(itemSapatos: String) ->
+    Sapatos {
+        let Sapatos: Sapatos =
+        Sapatos(context: viewContext)
+        Sapatos.itemSapato = itemSapatos
+        saveContext()
+        
+        return Sapatos
+    }
+    
+    public func deleteSapatos(sapatos: Sapatos) {
+        viewContext.delete(sapatos)
+        saveContext()
+    }
+    //entidade sapatos
+}
 

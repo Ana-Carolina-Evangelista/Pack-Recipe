@@ -8,11 +8,27 @@
 import SwiftUI
 
 struct bota_oPlus: View {
+    //to tentando criar a funcionalidade do botao de adicionar outro item na lista
+    let mais: Bool
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+            Image(systemName: "plus.app.fill")
+            .resizable()
+            .foregroundStyle(.marçala)
+            .frame(width: 35, height: 35)
+        
+//exemplo: botao
+ //       Button {
+//            temperatura = .calor
+//        } label: {
+//            MalaCalor(selecionado: temperatura == .calor)
+//        }
+            
+        
+        
     }
 }
 
 #Preview {
-    bota_oPlus()
+    bota_oPlus(mais: true)
 }

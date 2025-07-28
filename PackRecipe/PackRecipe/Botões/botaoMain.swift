@@ -11,8 +11,8 @@ struct botaoMain: View {
     var body: some View {
         ZStack{
             Image("botão1HV")
-            Text("MALALALALLA")
-                .padding(.trailing, 200)
+                .resizable()
+                .frame(width: 370,height: 160)
         }
     }
 }
